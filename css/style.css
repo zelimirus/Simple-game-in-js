@@ -1,0 +1,470 @@
+body {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+#job-inside-wraper {
+  width: 100%;
+  height: 20%;
+  display: block;
+  background-color: white;
+  margin: 0% auto;
+  float: left;
+  padding-left: 40%;
+  font-size: 50px;
+}
+
+#inside-wraper {
+  width: 130px;
+  font-size: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  display: block;
+  text-align: center;
+}
+
+#triger {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+}
+
+#tp {
+  position: relative;
+  float: left;
+  display: none;
+}
+
+#to {
+  position: relative;
+  float: left;
+  display: none;
+}
+
+#ts {
+  position: relative;
+  float: left;
+  display: none;
+}
+
+#ta {
+  position: relative;
+  float: left;
+  display: none;
+}
+
+#tlast {
+  position: relative;
+  float: left;
+  display: none;
+}
+
+.c {
+  font-size: 120px;
+  color: red;
+}
+
+#p {
+  font-size: 40px;
+  background: red;
+  position: relative;
+}
+
+.p {
+  webkit-animation: myfirst 5s infinite;
+ /* Chrome, Safari, Opera */
+  -webkit-animation-direction: alternate;
+ /* Chrome, Safari, Opera */
+  animation: myfirst 5s infinite;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    background: blue;
+    left: 0%;
+    top: 0%;
+  }
+
+  15% {
+    background: pink;
+    left: -100%;
+    top: -40%;
+  }
+
+  50% {
+    background: red;
+    left: -150%;
+    top: 230%;
+  }
+
+  60% {
+    background: green;
+    left: 0%;
+    top: 200%;
+  }
+
+  100% {
+    background: white;
+    left: 0%;
+    top: 0%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    background: blue;
+    left: 0%;
+    top: 0%;
+  }
+
+  15% {
+    background: pink;
+    left: -100%;
+    top: -40%;
+  }
+
+  50% {
+    background: red;
+    left: -150%;
+    top: 230%;
+  }
+
+  60% {
+    background: green;
+    left: 0%;
+    top: 200%;
+  }
+
+  100% {
+    background: white;
+    left: 0%;
+    top: 0%;
+  }
+}
+
+#a {
+  font-size: 40px;
+  background: red;
+  position: relative;
+}
+
+.a {
+  webkit-animation: myfirstA 5s infinite;
+ /* Chrome, Safari, Opera */
+  -webkit-animation-direction: alternate;
+ /* Chrome, Safari, Opera */
+  animation: myfirstA 5s infinite;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes myfirstA {
+  0% {
+    background: blue;
+    left: 0px;
+    top: 0px;
+  }
+
+  30% {
+    background: pink;
+    left: 100px;
+    top: 0px;
+  }
+
+  50% {
+    background: red;
+    left: 200px;
+    top: 0px;
+  }
+
+  55% {
+    background: green;
+    left: 250px;
+    top: 0px;
+  }
+
+  100% {
+    background: white;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes myfirstA {
+  0% {
+    background: blue;
+    left: 0px;
+    top: 0px;
+  }
+
+  30% {
+    background: pink;
+    left: 100px;
+    top: 0px;
+  }
+
+  50% {
+    background: red;
+    left: 200px;
+    top: 0px;
+  }
+
+  55% {
+    background: green;
+    left: 250px;
+    top: 0px;
+  }
+
+  100% {
+    background: white;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+#o {
+  font-size: 40px;
+  background: red;
+  position: relative;
+}
+
+.o {
+  webkit-animation: myfirstO 5s infinite;
+ /* Chrome, Safari, Opera */
+  -webkit-animation-direction: alternate;
+ /* Chrome, Safari, Opera */
+  animation: myfirstO 5s infinite;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes myfirstO {
+  0% {
+    background: blue;
+    left: 0px;
+    top: 0px;
+  }
+
+  15% {
+    background: pink;
+    left: 0px;
+    top: 100px;
+  }
+
+  25% {
+    background: red;
+    left: 0px;
+    top: 250px;
+  }
+
+  83% {
+    background: green;
+    left: 0px;
+    top: -200px;
+  }
+
+  100% {
+    background: white;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes myfirstO {
+  0% {
+    background: blue;
+    left: 0px;
+    top: 0px;
+  }
+
+  15% {
+    background: pink;
+    left: 0px;
+    top: 100px;
+  }
+
+  25% {
+    background: red;
+    left: 0px;
+    top: 250px;
+  }
+
+  83% {
+    background: green;
+    left: 0px;
+    top: -200px;
+  }
+
+  100% {
+    background: white;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+#s {
+  font-size: 40px;
+  background: red;
+  position: relative;
+}
+
+.s {
+  font-size: 40px;
+  background: red;
+  position: relative;
+  webkit-animation: myfirstS 5s infinite;
+ /* Chrome, Safari, Opera */
+  -webkit-animation-direction: alternate;
+ /* Chrome, Safari, Opera */
+  animation: myfirstS 5s infinite;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes myfirstS {
+  0% {
+    background: blue;
+    left: 0px;
+    top: 0px;
+  }
+
+  30% {
+    background: pink;
+    left: 0px;
+    top: -40px;
+  }
+
+  50% {
+    background: red;
+    left: 0px;
+    top: -100px;
+  }
+
+  83% {
+    background: green;
+    left: 0px;
+    top: -220px;
+  }
+
+  100% {
+    background: white;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes myfirstS {
+  0% {
+    background: blue;
+    left: 0px;
+    top: 0px;
+  }
+
+  30% {
+    background: pink;
+    left: 0px;
+    top: -40px;
+  }
+
+  50% {
+    background: red;
+    left: 0px;
+    top: -100px;
+  }
+
+  83% {
+    background: green;
+    left: 0px;
+    top: -220px;
+  }
+
+  100% {
+    background: white;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+#last {
+  font-size: 40px;
+  background: red;
+  position: relative;
+}
+
+.last {
+  font-size: 40px;
+  background: red;
+  position: relative;
+  webkit-animation: mylast 5s infinite;
+ /* Chrome, Safari, Opera */
+  -webkit-animation-direction: alternate;
+ /* Chrome, Safari, Opera */
+  animation: mylast 5s infinite;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes mylast {
+  0% {
+    background: blue;
+    left: 0px;
+    top: 0px;
+  }
+
+  30% {
+    background: pink;
+    left: -110px;
+    top: -40px;
+  }
+
+  50% {
+    background: red;
+    left: -210px;
+    top: 230px;
+  }
+
+  83% {
+    background: green;
+    left: 0px;
+    top: 200px;
+  }
+
+  100% {
+    background: white;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes mylast {
+  0% {
+    background: blue;
+    left: 0px;
+    top: 0px;
+  }
+
+  30% {
+    background: pink;
+    left: 110px;
+    top: 40px;
+  }
+
+  50% {
+    background: red;
+    left: 210px;
+    top: -230px;
+  }
+
+  83% {
+    background: green;
+    left: 0px;
+    top: -200px;
+  }
+
+  100% {
+    background: white;
+    left: 0px;
+    top: 0px;
+  }
+}
